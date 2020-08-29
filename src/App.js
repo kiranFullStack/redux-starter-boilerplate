@@ -1,21 +1,13 @@
 import React from "react"
 import "./App.css"
-import HooksCakeContainer from "./components/CakeComponent"
-import UsersContainer from "./components/UsersContainer"
-import IceCreamComponent from "./components/IcecreamComponent"
+import NameComponent from "./components/NameComponent"
+import NameComponent2 from "./components/NameComponent2"
 
 function App() {
   return (
     <div className="App">
-      <UsersContainer />
-      <HooksCakeContainer />
-      <IceCreamComponent />
-
-      {/* <ItemContainer cake />
-          <ItemContainer />
-          <NewCakeContainer />
-          <CakeContainer />
-          <IceCreamComponent /> */}
+      <NameComponent />
+      <NameComponent2 />
     </div>
   )
 }
